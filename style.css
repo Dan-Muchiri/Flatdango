@@ -1,0 +1,99 @@
+body {
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+  } 
+
+h1{
+    margin: 10px;
+    margin-left: 40px;
+    width: 200px;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    font-size: 40px;
+  }
+
+h2{
+  margin: 0;
+  padding-left: 5px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+  }
+#content{
+  display: flex;
+  align-items: top;
+  margin-bottom: 50px;
+}
+#movie-list{
+    background-color: rgb(247, 245, 245);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 240px;
+    border-radius: 20px;
+}
+  
+button {
+  display: block;
+  margin: 5px;
+  padding: 3px; 
+  border: 2px solid; 
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px; 
+}
+
+
+button:active{
+    opacity: 0.4;
+}
+  
+.movie-details {
+    background-color: rgb(247, 245, 245);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 20px;
+    padding-top: 40px;
+    flex: 1;
+    border-radius: 20px;
+  }
+
+.inner-details p{
+  text-align: left;
+  font-size: 30px;
+}
+  
+img {
+    max-height: 270px;
+    width: auto;
+    border-radius: 20px;
+  }
+
+.buy-ticket-button{
+  position: absolute;
+  top: 370px;
+  left: 250px;
+  padding: 15px;
+}
