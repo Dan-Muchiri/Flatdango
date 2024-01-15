@@ -46,12 +46,13 @@ p{
     padding: 20px;
     margin-left: 20px;
     margin-top: 0px;
-    width: 270px;
+    width: 400px;
     border-radius: 20px;
 }
 
 li{
-  font-size: 22px;
+  position: relative;
+  font-size: 20px;
   cursor: pointer;
   margin: 5px;
 }
@@ -73,15 +74,35 @@ li:active {
   cursor: not-allowed; 
   pointer-events: none; 
   opacity: 0.6; 
+  position: relative;
 }
-  
-button {
+.sold-out .delete-button{
+  cursor: pointer;
+  pointer-events: all;
+}
+
+
+
+.buy-ticket-button{
   position: absolute;
   top: 0;
   right: 0;
   margin: 5px;
   padding: 6px; 
   border: 2px solid; 
+}
+
+.delete-button{
+  position: absolute;
+  right: 0;
+  padding: 1px;
+  border: 1.5px solid; 
+}
+
+.delete-button:hover{
+  padding: 2px;
+}
+button {
   border-radius: 4px;
   background-color: rgb(247, 245, 245);
   color: black;
@@ -107,7 +128,7 @@ button:active{
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 20px;
     padding-top: 20px;
     flex: 1;
